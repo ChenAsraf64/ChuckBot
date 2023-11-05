@@ -2,12 +2,12 @@
 from telegram import Update
 from telegram.ext import Application, CommandHandler, MessageHandler, filters, ContextTypes
 from joke_extractor import extract_joke
-from config import TELEGRAM_TOKEN, BOT_USERNAME
+import os
 from online_translation import get_translation, get_language_code
 
 # Token to acess HTTP API (recived from Telegram BotFather)
-TOKEN = TELEGRAM_TOKEN
-BOT_USERNAME = BOT_USERNAME
+TOKEN = os.getenv('TELEGRAM_TOKEN')
+BOT_USERNAME = os.getenv('BOT_USERNAME')
 user_data = {}  # This will hold the language and joke_number for each user
 
 

@@ -1,8 +1,8 @@
 from bs4 import BeautifulSoup
 from zenrows import ZenRowsClient
-from config import ZENROWS_API_KEY
+import os
 
-api_key = ZENROWS_API_KEY
+api_key = os.getenv('ZENROWS_API_KEY')
 # Initialize the ZenRows client with my API key
 client = ZenRowsClient(api_key)
 

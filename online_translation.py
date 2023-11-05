@@ -1,10 +1,10 @@
 import requests
 import uuid
-from config import AZURE_TRANSLATOR_KEY, AZURE_TRANSLATOR_ENDPOINT, AZURE_TRANSLATOR_LOCATION
+import os
 
-key = AZURE_TRANSLATOR_KEY
-endpoint = AZURE_TRANSLATOR_ENDPOINT
-location = AZURE_TRANSLATOR_LOCATION
+key = os.getenv('AZURE_TRANSLATOR_KEY')
+endpoint = os.getenv('AZURE_TRANSLATOR_ENDPOINT')
+location = os.getenv('AZURE_TRANSLATOR_LOCATION')
 
 # Given language name in English, extracting the language code
 
