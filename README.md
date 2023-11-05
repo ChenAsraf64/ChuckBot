@@ -23,11 +23,14 @@ git clone https://github.com/ChenAsraf64/ChuckBot.git
 cd ChuckBot
 ```
 
-Install the required packages by running the following commands:
-- `pip install python-telegram-bot`
-- `pip install requests`
-- `pip install beautifulsoup4`
-- `pip install zenrows`
+Set up a virtual environment (optional but recommended):
+- `python -m venv venv`
+- `source venv/bin/activate`  # For Unix or MacOS
+`venv\Scripts\activate`  # For Windows
+
+Install the required packages by running:
+- `pip install -r requirements.txt`
+
 
 ## Configuration
 To run the bot, you need to set up the following configuration:
