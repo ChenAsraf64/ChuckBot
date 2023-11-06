@@ -1,6 +1,7 @@
 # ChuckBot
 
 ChuckBot is a Telegram bot that entertains users with Chuck Norris jokes. Users can set their preferred language for jokes, request jokes by number, and receive them translated into their chosen language.
+![תמונה של WhatsApp‏ 2023-11-06 בשעה 14 09 19_cfdeeb1c](https://github.com/ChenAsraf64/ChuckBot/assets/92244408/8903849c-0918-44eb-9b49-ee5b6242b22b)
 
 ## Features
 
