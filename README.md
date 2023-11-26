@@ -59,7 +59,7 @@ ZENROWS_API_KEY = 'your-zenrows-api-key'
 
 
 ## Running the Bot
-After the configuration file is set up, you can run the bot using the following command:
+After the configuration file is set up, run your virtual environment (usually `evviorment_name`\Scripts\activate) and then you can run the bot using the following command:
 `python chuckbot.py`
 
 To interact with your bot on Telegram:
